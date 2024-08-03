@@ -1,4 +1,4 @@
-// script.js
+'use strict';
 document.getElementById('calculate-button').addEventListener('click', function() {
   const day = parseInt(document.getElementById('day').value);
   const month = parseInt(document.getElementById('month').value);
