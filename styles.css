@@ -58,7 +58,7 @@ body {
 }
 
 #calculate-button {
-  background-color: #864CFF;
+  background-color: #864dfe;
   border: none;
   border-radius: 50%;
   color: white;
@@ -80,7 +80,7 @@ body {
 }
 
 #years, #months, #days {
-  color: #6C63FF;
+  color: #864dfe;
 }
 .line-break{
   background-color: #F2F2F2;
