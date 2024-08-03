@@ -1,0 +1,102 @@
+
+/* styles.css */
+*{
+  font-family: Poppins;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+  border-bottom-right-radius: 30%;
+  width: 30%;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.input-group label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.input-group input {
+  width: 60px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+#calculate-button {
+  background-color: #864CFF;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  height: 70px;
+  width: 70px;
+}
+
+.output-section {
+  font-size: 64px;
+  font-weight: bolder;
+  color: #333;
+}
+
+.output-section p {
+  margin: -3px 0;
+  font-style: italic;
+}
+
+#years, #months, #days {
+  color: #6C63FF;
+}
+.line-break{
+  display: flex;
+  background-color: #F2F2F2;
+  width: 80%;
+  height: 2px;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .container{
+    width: 90%;
+  }
+  .input-section{
+    /* flex-direction: column; */
+    
+  }
+}
+  

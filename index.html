@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <div class="input-group">
+                <label for="day">DAY</label>
+                <input type="number" id="day" placeholder="DD">
+                <small id="day-error" class="error-message"></small>
+            </div>
+            <div class="input-group">
+                <label for="month">MONTH</label>
+                <input type="number" id="month" placeholder="MM">
+                <small id="month-error" class="error-message"></small>
+            </div>
+            <div class="input-group">
+                <label for="year">YEAR</label>
+                <input type="number" id="year" placeholder="YYYY">
+                <small id="year-error" class="error-message"></small>
+            </div>
+            <button id="calculate-button"><img src="icon-arrow.svg" alt="calculate"></button> 
+        </div>
+        <div class="line-break"></div>
+        <div class="output-section">
+            <p><span id="years">--</span> years</p>
+            <p><span id="months">--</span> months</p>
+            <p><span id="days">--</span> <span id="days-label">days</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
